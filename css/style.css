@@ -1,3 +1,14 @@
+/* Estilos para el menú hamburguesa */
+.navbar-toggler {
+    border: none;
+    background-color: transparent;
+}
+
+.navbar-toggler-icon {
+    background-color: #333;
+}
+
+
 /* Estilos generales */
 body {
     margin: 0;
