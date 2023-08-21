@@ -1,0 +1,76 @@
+// Variables
+$primary-color: #333;
+$secondary-color: #555;
+$light-color: #777;
+$background-color: #f9f9f9;
+$border-color: #ccc;
+
+// Estilos generales
+body
+  margin: 0
+  padding: 0
+  display: flex
+  flex-direction: column
+  min-height: 100vh
+  font-family: Arial, sans-serif
+
+header, footer
+  background-color: $primary-color
+  color: #fff
+  padding: 10px
+  text-align: center
+
+nav
+  background-color: $background-color
+  padding: 10px
+
+nav a
+  text-decoration: none
+  margin-right: 10px
+  color: $primary-color
+  font-weight: bold
+
+main
+  padding: 20px
+  flex: 1
+
+h1, h2, h3, h4, h5, h6
+  font-weight: bold
+
+h2
+  color: $primary-color
+
+h4
+  color: $secondary-color
+
+p
+  color: $light-color
+  line-height: 1.5
+
+blockquote
+  font-style: italic
+  color: $secondary-color
+
+.article, .portfolio-item, .about, .referencia
+  background-color: $background-color
+  border: 1px solid $border-color
+  padding: 10px
+  margin-bottom: 10px
+
+.article h4, .portfolio-item h4
+  color: $primary-color
+  font-size: 18px
+  margin-bottom: 5px
+
+.article p, .portfolio-item p, .about p
+  color: $secondary-color
+  margin-bottom: 10px
+
+.referencia img
+  width: 50px
+  height: 50px
+  margin-right: 10px
+  border-radius: 50%
+
+.referencia h3
+  margin: 0

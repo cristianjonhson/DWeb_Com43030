@@ -1,0 +1,16 @@
+{
+  "name": "dweb_com43030",
+  "version": "1.0.0",
+  "description": "Este es un proyecto de una Landing Page desarrollada en HTML y CSS. La Landing Page consiste en una página web que presenta información sobre un profesional o un negocio, incluyendo secciones como Inicio, Blog, Sobre mí, Portafolio, Experiencia y Referencias.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "node-sass src/sass/main.sass src/css/main.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^9.0.0"
+  }
+}
