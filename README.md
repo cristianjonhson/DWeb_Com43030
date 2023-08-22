@@ -21,6 +21,16 @@ Para utilizar este proyecto, simplemente descarga los archivos y ábrelos en tu 
 
 Si deseas personalizar la Landing Page, puedes modificar los contenidos de cada archivo HTML y ajustar los estilos en el archivo `style.css` de acuerdo a tus necesidades y preferencias.
 
+## Uso de Sass y GitHub Actions
+
+Este proyecto utiliza Sass para gestionar los estilos. Los estilos están definidos en el archivo `src/sass/main.scss`. Si deseas realizar cambios en los estilos, puedes modificar este archivo y luego compilarlo a CSS ejecutando el siguiente comando en tu terminal:
+
+```bash
+npm run sass
+```
+
+Además, este proyecto utiliza GitHub Actions para compilar automáticamente los estilos Sass y desplegar la página en GitHub Pages cuando realizas un push a la rama principal del repositorio. El flujo de trabajo está definido en el archivo .github/workflows/main.yml.
+
 ## Contribuciones
 
 Las contribuciones son bienvenidas. Si encuentras algún problema o tienes alguna mejora que aportar, por favor, abre un problema o envía una solicitud de extracción con los cambios propuestos.
