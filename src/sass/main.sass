@@ -12,22 +12,22 @@ $gradient-nav: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rg
 
 // Estilos generales
 body
-  margin: 0
-  padding: 0
-  display: flex
-  flex-direction: column
-  min-height: 100vh
-  font-family: Arial, sans-serif
-  background: $gradient-header
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+  background: $gradient-header;
 
 header, footer
-  background-color: $primary-color
-  color: #fff
-  padding: 10px
-  text-align: center
+  background-color: $primary-color;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
 
 footer p
-  color: $footer-color
+  color: $footer-color;
 
 nav 
   background-color: $background-color;
@@ -35,80 +35,126 @@ nav
   color: #fff;
   background: $gradient-nav;
 
-
 nav .navbar-toggler 
-  border: none
-  background-color: transparent
-  position: relative
+  border: none;
+  background-color: transparent;
+  position: relative;
 
   &::before, &::after
-    content: ""
-    display: block
-    background-color: $footer-color
-    height: 3px
-    width: 30px
-    margin: 3px auto
-    position: absolute
-    left: 0
-    right: 0
+    content: "";
+    display: block;
+    background-color: $footer-color;
+    height: 3px;
+    width: 30px;
+    margin: 3px auto;
+    position: absolute;
+    left: 0;
+    right: 0;
 
   &::before
-    top: -7px
+    top: -7px;
 
   &::after
-    bottom: -7px
-
+    bottom: -7px;
 
 nav .navbar-toggler-icon 
   background-color: $footer-color;
 
 nav a
-  text-decoration: none
-  margin-right: 10px
-  color: $footer-color
-  font-weight: bold
+  text-decoration: none;
+  margin-right: 10px;
+  color: $footer-color;
+  font-weight: bold;
 
 main
-  padding: 20px
-  flex: 1
+  padding: 20px;
+  flex: 1;
 
 h1, h2, h3, h4, h5, h6
-  font-weight: bold
+  font-weight: bold;
 
 h2
-  color: $primary-color
+  color: $primary-color;
 
 h4
-  color: $secondary-color
+  color: $secondary-color;
 
 p
-  color: $light-color
-  line-height: 1.5
+  color: $light-color;
+  line-height: 1.5;
 
 blockquote
-  font-style: italic
-  color: $secondary-color
+  font-style: italic;
+  color: $secondary-color;
 
 .article, .portfolio-item, .about, .referencia
-  background-color: $background-color
-  border: 1px solid $border-color
-  padding: 10px
-  margin-bottom: 10px
+  background-color: $background-color;
+  border: 1px solid $border-color;
+  padding: 10px;
+  margin-bottom: 10px;
 
 .article h4, .portfolio-item h4
-  color: $primary-color
-  font-size: 18px
-  margin-bottom: 5px
+  color: $primary-color;
+  font-size: 18px;
+  margin-bottom: 5px;
 
 .article p, .portfolio-item p, .about p
-  color: $secondary-color
-  margin-bottom: 10px
+  color: $secondary-color;
+  margin-bottom: 10px;
 
 .referencia img
-  width: 50px
-  height: 50px
-  margin-right: 10px
-  border-radius: 50%
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  border-radius: 50%;
 
 .referencia h3
-  margin: 0
+  margin: 0;
+
+// Estilos de la línea de tiempo de experiencia laboral
+.container
+  text-align: center;
+
+.timeline
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  position: relative;
+  margin-top: 20px;
+
+.trabajo
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 0 10px;
+  flex: 1;
+
+.trabajo::before
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 2px;
+  height: 100%;
+  background-color: #ccc;
+
+.trabajo h3
+  margin: 0;
+  color: #333;
+
+.trabajo h4
+  margin: 10px 0;
+  color: #555;
+
+.trabajo p.fechas
+  margin: 0;
+  color: #777;
+
+.trabajo ul
+  margin-top: 10px;
+  padding-left: 20px;
+
+.trabajo li
+  color: #666;
+  margin-bottom: 5px;
