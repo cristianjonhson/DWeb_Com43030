@@ -95,33 +95,6 @@ blockquote {
 .referencia h3 {
   margin: 0; }
 
-.container {
-  text-align: center; }
-
-.timeline {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  position: relative;
-  margin-top: 20px; }
-
-.trabajo {
-  background-color: #f9f9f9;
-  border: 1px solid #ccc;
-  padding: 20px;
-  margin: 0 10px;
-  flex: 1; }
-
-.trabajo::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 2px;
-  height: 100%;
-  background-color: #ccc; }
-
 .trabajo h3 {
   margin: 0;
   color: #333; }
